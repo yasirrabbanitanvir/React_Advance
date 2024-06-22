@@ -6,6 +6,9 @@ import AppHome from './AppHome';
 import UseEffect from './UseEffect';
 import FetchData from './FetchData';
 import DataReturn from './DataReturn'
+import Showimg from './Showimg';
+import useCustomHook from './useCustomHook';
+import ShowCustomData from './ShowCustomData';
 
 export default function App() {
   const [name, setName] = useState("No its easy");
@@ -24,7 +27,10 @@ export default function App() {
       <AppHome />
       <UseEffect />
       <FetchData />
-      <DataReturn/>
+      <DataReturn />
+      <Showimg />
+      <useCustomHook />
+      <ShowCustomData/>
     </div>
   );
 }
